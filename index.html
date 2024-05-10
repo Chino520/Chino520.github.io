@@ -1,144 +1,15 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 
-4.0 Transitional//EN"> 
-<html> 
-<head> 
-<meta http-equiv="Content-Style-type" 
-content="text/css"> 
-    <title>�z�[���y�[�W</title>
+<!DOCTYPE html>
+<html lang="zh">
 
-<link rel="stylesheet" href="1.css" type="text/css">
-
-<style type="text/css">
-#photo {
-    width: 750px;
-    height: 450px;
-    margin: 0 auto;
-    text-align: left;
-    overflow: hidden;
-    position: relative;
-}
-
-#photo img {
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-</style>
-
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script type="text/javascript">
-$(function(){
-    var setImg = '#photo';
-    var fadeSpeed = 1600;
-    var switchDelay = 3000;
-
-    $(setImg).children('img').css({opacity:'0'});
-    $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
-
-    setInterval(function(){
-        $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
-    },switchDelay);
-});
-</script>
+<head>
+    <meta name="description" content="public tounight's personal website">
+    <title>[Tounight]Welcome to my world!</title>
 
 </head>
-
-
 <body>
-    <header>
-        <h1>�l�H�m�\</h1>
-    </header>
+    
 
-    <nav>
-         <a href="member.html">�z�[��</a>
-        <a href="houhouron.html">���@�_</a>
-        <a href="history.html">���j</a>
-        <a href="gazou.html">�摜�F��</a>
-        <a href="onsei.html">�����F��</a>
-        <a href="motion.html">���[�V�����L���v�`���[</a>
-    <a href="ai.html">����AI</a>
-    </nav>
-    <section>
-        <b2>�z�[��</b2><hr style="border: 2px solid #006699;">
-<a id ="scrollbtn"></a>
-
-        <p>
-			<div id="photo">
-			<img src="home1.jpg" width="750" height="450" alt="">
-			<img src="home2.jpg" width="750" height="450" alt="">
-			<img src="home3.jpg" width="750" height="450" alt="">
-			
-			</div>
-<br><b1>�ڎ�</b1><hr style="border: 1px solid #006699;">
-<a>
-<ul>
-<li>���@�_</li>
-<li>���j</li>
-<li>�摜�F��</li>
-<li>�����F��</li>
-<li>���[�V�����L���v�`��</li>
-<li>����AI</li>
-</ul>
-</a>
-<br>
-<br>
-
-<br><b1>�����o�[�Љ�</b1><hr style="border: 1px solid #006699;">
-<br><b3>���I��</b3><hr>
-<a>
-�摜�F���ɂ���
-</a>
-<br>
-<br>
-<br>
-<br><b3>��J��</b3><hr>
-<a>
-���[�V�����L���v�`���[�ɂ���
-</a>
-<br>
-<br>
-<br>
-<br><b3>���c����</b3><hr>
-<a>
-�����F���ɂ���
-</a>
-<br>
-<br>
-<br>
-<br><b3>�j�V�a��</b3><hr>
-<a>
-�z�[���y�[�W�쐬
-</a>
-<br>
-<br>
-<br>
-<br><b3>CAI Wuyin</b3><hr>
-<a>
-�z�[���y�[�W�쐬
-</a>
-<br>
-<br>
-<br>
-<br>
-<br>
-<button onclick="scrollToTop()" id="scrollbtn">����ɖ߂�</button>
-<br>
-<br>
-<br>
-<br>
-
- </section>
-<script>
-        // �y�[�W�̈�ԏ�ɃX�N���[�����邽�߂̊֐�
-        function scrollToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-
-    <footer>
-        <p>B��</p>
-    </footer>
+    
 </body>
+
 </html>
