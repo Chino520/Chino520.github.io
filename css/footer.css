@@ -1,0 +1,17 @@
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    background-color:rgba(0, 195, 255, 0.702);
+    /* 消除footer和边框的距离 */
+    left: -8px;
+    bottom: -8px;
+    /* 决定了不同元素的叠加顺序。-100是我自己定的，表示绝对在最下层 */
+    z-index: -100;
+}
+
+.footer-copyright {
+    margin: auto;
+}
