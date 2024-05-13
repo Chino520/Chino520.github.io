@@ -1,0 +1,24 @@
+.nav {
+    position: fixed;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* 将多个div元素排成一行 */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+
+.nav-item {
+    font-size: 2vw;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    /* color:black; */
+    margin: 1vw;
+}
+
+.nav-link {
+    color:chartreuse;
+    text-decoration: none;
+}
