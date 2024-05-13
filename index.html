@@ -5,10 +5,16 @@
     <!-- meta元素只会被浏览器看到 -->
     <meta name="description" content="public tounight's personal website">
     <title>Tounight Official🌙</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.3.0/wow.min.js"></script>
     <!-- link用于定义各种外部资源 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="css/fixedBubble.css" />
+    <link rel="stylesheet" href="css/fixed-nav.css" />
     <link rel="stylesheet" href="css/top.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- todo:WOW是一个让网页animationalize的工具 -->
+    <!-- .min.js是“压缩版”的.js文件 -->
+
 </head>
 
 <body>
@@ -21,6 +27,10 @@
             <div class="nav-item"><a class="nav-link" href="#music">Music</a></div>
             <div class="nav-item"><a class="nav-link" href="#channel">Channel</a></div>
             <div class="nav-item"><a class="nav-link" href="#update-Logs">Update Logs</a></div>
+            <div class="wow animate__animated animate__bounce">
+                这是一个会弹跳的元素！
+            </div>
+              
         </div>
 
         <section id="about-me">
@@ -32,6 +42,46 @@
 
         <section id="achievement">
             Achievement
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </section>
 
         <section id="music">
@@ -47,9 +97,19 @@
         </section>
         <!-- todo:手机端异常。要么单独写手机端，要么在手机端屏蔽掉 -->
         <div class="fixed-bubble-nav">
-            <a href="#top"><img src="img/fixed-bubble-nav.jpg" alt="fixed-bubble-nav" /></a>
+            <a href="#top"><img src="img/fixed-bubble-nav.svg" alt="fixed-bubble-nav" /></a>
         </div>
     </div>
+
+    <footer class="footer">
+        <div class="footer-copyright">
+            &copy; Tounight, Inc.
+        </div>
+    </footer>
+
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
