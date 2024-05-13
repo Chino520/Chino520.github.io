@@ -1,10 +1,10 @@
-.fixed-bubble-nav {
+.fixed-nav {
     position: fixed;
     bottom: 40px;
     right: 20px;
     transition: transform 0.5s;
 }
 
-.fixed-bubble-nav:hover {
+.fixed-nav:hover {
     transform: scale(1.2);
 }
