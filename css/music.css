@@ -1,0 +1,5 @@
+.music {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
